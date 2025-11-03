@@ -1,0 +1,110 @@
+{
+    "clientes": [
+        {
+            "nombre": "isabella",
+            "cedula": "111",
+            "facturas": [
+                {
+                    "fecha": "2025-11-03",
+                    "cliente": "isabella",
+                    "productos": [
+                        {
+                            "tipo": "Fertilizante",
+                            "nombre": "abonomora",
+                            "precio": 20000.0,
+                            "registro_ica": "ICA123",
+                            "frecuencia_dias": 2,
+                            "fecha_ultima_aplicacion": "2025-11-03"
+                        }
+                    ],
+                    "total": 20000.0
+                }
+            ]
+        },
+        {
+            "nombre": "camilo",
+            "cedula": "222",
+            "facturas": [
+                {
+                    "fecha": "2025-11-03",
+                    "cliente": "camilo",
+                    "productos": [
+                        {
+                            "tipo": "Fertilizante",
+                            "nombre": "abonomora",
+                            "precio": 20000.0,
+                            "registro_ica": "ICA123",
+                            "frecuencia_dias": 2,
+                            "fecha_ultima_aplicacion": "2025-11-03"
+                        },
+                        {
+                            "tipo": "ControlPlagas",
+                            "nombre": "byebyehongo",
+                            "precio": 70000.0,
+                            "registro_ica": "ICA333",
+                            "frecuencia_dias": 3,
+                            "periodo_carencia": 4
+                        },
+                        {
+                            "tipo": "Fertilizante",
+                            "nombre": "abonomora",
+                            "precio": 20000.0,
+                            "registro_ica": "ICA123",
+                            "frecuencia_dias": 2,
+                            "fecha_ultima_aplicacion": "2025-11-03"
+                        }
+                    ],
+                    "total": 110000.0
+                }
+            ]
+        }
+    ],
+    "facturas": [
+        {
+            "fecha": "2025-11-03",
+            "cliente": "isabella",
+            "productos": [
+                {
+                    "tipo": "Fertilizante",
+                    "nombre": "abonomora",
+                    "precio": 20000.0,
+                    "registro_ica": "ICA123",
+                    "frecuencia_dias": 2,
+                    "fecha_ultima_aplicacion": "2025-11-03"
+                }
+            ],
+            "total": 20000.0
+        },
+        {
+            "fecha": "2025-11-03",
+            "cliente": "camilo",
+            "productos": [
+                {
+                    "tipo": "Fertilizante",
+                    "nombre": "abonomora",
+                    "precio": 20000.0,
+                    "registro_ica": "ICA123",
+                    "frecuencia_dias": 2,
+                    "fecha_ultima_aplicacion": "2025-11-03"
+                },
+                {
+                    "tipo": "ControlPlagas",
+                    "nombre": "byebyehongo",
+                    "precio": 70000.0,
+                    "registro_ica": "ICA333",
+                    "frecuencia_dias": 3,
+                    "periodo_carencia": 4
+                },
+                {
+                    "tipo": "Fertilizante",
+                    "nombre": "abonomora",
+                    "precio": 20000.0,
+                    "registro_ica": "ICA123",
+                    "frecuencia_dias": 2,
+                    "fecha_ultima_aplicacion": "2025-11-03"
+                }
+            ],
+            "total": 110000.0
+        }
+    ]
+}
